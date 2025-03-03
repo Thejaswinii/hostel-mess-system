@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";  // Database host
-$username = "root";  // Database username
-$password = "";  // Database password
-$dbname = "user_management";  // Database name
+$host = "sql201.infinityfree.com";  // Database host
+$username = "if0_38434055";  // Database username
+$password = "F6ebjHoht6LasEG";  // Database password
+$dbname = "if0_38434055_user_management";  // Database name
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
