@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($stmt->execute()) {
         echo "Registration Successful!";
     } else {
-        echo "Error: " . $stmt->error;
+        echo "Registration failed: " . $stmt->error; // Show actual SQL error
     }
     
     $stmt->close();
